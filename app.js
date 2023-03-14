@@ -17,8 +17,7 @@ const imageLoaded = () =>{
     imagesLoaded++;
     if(imagesLoaded === totalImages){
         ready = true
-        loader.hidden = false
-        count = 30
+        loader.hidden = true
     }
 }
 
